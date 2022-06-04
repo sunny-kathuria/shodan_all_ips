@@ -38,7 +38,7 @@ def remove_duplicate_ip(duplicate):
 def getting_ip_list(total_ips):
     ip_list=[]
     if total_ips==0:
-        pass
+        sys.exit(1)
     else:
         try:
             number_of_page=page(total_ips)
